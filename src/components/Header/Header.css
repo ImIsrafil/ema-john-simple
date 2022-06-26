@@ -1,7 +1,7 @@
-
 .header {
     text-align: center;
 }
+
 .logo {
     height: 50px;
 }
@@ -11,6 +11,9 @@
     line-height: 40px;
     text-align: left;
     padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header nav a {
@@ -24,4 +27,20 @@
 .header nav a:hover {
     background-color: lightgray;
     color: rgb(20, 22, 27);
+}
+
+.header nav img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.header nav .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header nav .user-info p {
+    color: #f3f3f3;
 }
